@@ -1,0 +1,43 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="./index.js"></script>
+	<style>
+		html {
+			height: 99%;
+			-webkit-app-region: drag; 
+			overflow: hidden
+		}
+
+		body {
+			overflow: hidden;
+			height: 99%;
+		}
+
+		.app-container {
+			display: flex;
+			background-color: transparent;
+			flex-direction: column;
+			height: 99%;
+		}
+
+		.entry {
+			display: flex;
+			color: Red;
+			margin-right: 5px;
+			margin-right: 1px;
+			font-weight: bold;
+			width: 99%;
+			font-size: 12pt;
+			height: 15px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="app-container">
+		<div id="min" class="entry">Min: 0ms</div>
+		<div id="avg" class="entry">Avg: 0ms</div>
+		<div id="max" class="entry">Max: 0ms</div>
+	</div>
+</body>
+</html>

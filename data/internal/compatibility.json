@@ -1,0 +1,1 @@
+[{"pattern":"aasync","restore":true,"ifEnabledOnly":true},{"pattern":"zsync","restore":true,"ifEnabledOnly":true},{"pattern":"z-sync","restore":true,"ifEnabledOnly":true},{"pattern":"psp","restore":false},{"pattern":"skill-prediction","restore":false},{"pattern":"skillprediction","restore":false},{"pattern":"lockons-light","restore":false}]

@@ -1,0 +1,9 @@
+manifest-generator.bat
+manifest-generator.js
+module.config.json
+.eslintrc.json
+config.json
+.backup/**
+.new-backup/**
+cache/*-napCacheData.json
+logs/debug-*.log

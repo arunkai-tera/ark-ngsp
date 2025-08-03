@@ -1,0 +1,12 @@
+{
+    "disableAutoUpdate": false,
+    "author": "SaltyMonkey / ArunKai",
+    "options": {
+        "niceName": "Arunkai-NGSP"
+    },
+    "servers": ["https://raw.githubusercontent.com/arunkai-tera/ark-ngsp/main/"],
+    "drmKey": "arunkai drm",
+    "supportUrl": "DM",
+    "name": "ngsp",
+    "description": "Custom NGSP for ArunKai Server"
+}

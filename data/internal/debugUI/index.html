@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="./index.js"></script>
+
+	<style>
+		@font-face {
+			font-family: "Inconsolata";
+			src: url("./assets/Inconsolata-Regular.ttf") format("truetype");
+		}
+
+		html {
+			height: 99%;
+			font-family: "Inconsolata";
+		}
+
+		body {
+			overflow: hidden;
+			height: 99%;
+		}
+
+		::selection {
+			background: red;
+		}
+
+		.app-container {
+			display: flex;
+			background-color: transparent;
+			flex-direction: column;
+			height: 99%;
+		}
+
+		.header-container {
+			width: auto;
+			height: 24px;
+			justify-content: flex-end;
+			flex-direction: row;
+			align-items: center;
+			display: flex;
+		}
+
+		.header-text {
+			-webkit-app-region: drag;
+			flex: 4;
+			background-color: #1e2124;
+			align-items: center;
+			color: gray;
+			text-align: center;
+			font-size: 16px;
+			height: 18px;
+		}
+
+		.menu-container {
+			width: auto;
+			height: 24px;
+			justify-content: flex-end;
+			flex-direction: row;
+			align-items: center;
+			display: flex;
+		}
+
+		.menu-item {
+			display: flex;
+			margin-right: 5px;
+			text-align: center;
+		}
+
+		.menu-item-long {
+			display: flex;
+			margin-left: 25px;
+			text-align: center;
+		}
+
+		.log-container {
+			overflow: auto;
+			display: flex;
+			align-items: center;
+			margin-bottom: 5px;
+			margin-top: 5px;
+			height: 100%;
+			width: auto;
+			flex-direction: column;
+			/*background-color: #282b30;*/
+		}
+
+		.menu-button {
+			-webkit-transition-duration: 0.4s;
+			transition-duration: 0.4s;
+			background-color: transparent;
+			height: 24px;
+			width: 24px;
+			border: none;
+			color: #282b30;
+			align-items: center;
+			text-align: center;
+			font-size: 21px;
+		}
+
+		.save-all-icon {
+			background-image: url("./assets/save-filled.png");
+		}
+
+		.save-last-icon {
+			background-image: url("./assets/save-stroke.png");
+		}
+
+		.menu-button:hover {
+			background-color: red;
+			/* Green */
+			color: white;
+		}
+
+		.log {
+			display: flex;
+			color: white;
+			/*background-color: #1e2124;*/
+			margin-left: 5px;
+			margin-right: 5px;
+			margin-top: 1px;
+			width: 99%;
+			font-size: 10pt;
+			height: 16px;
+		}
+
+		#red {
+			color: red;
+		}
+
+		#gray {
+			color: gray;
+		}
+
+		/* width */
+		::-webkit-scrollbar {
+			width: 12px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+			background: darkgray;
+		}
+
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+			background: gray;
+		}
+
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+			background: red;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="app-container">
+		<div class="header-container">
+
+			<div class="menu-container">
+				<div class="menu-item">
+					<button class="menu-button save-last-icon" />
+				</div>
+				<div class="menu-item">
+					<button class="menu-button save-all-icon" />
+				</div>
+			</div>
+			<div class="header-text">
+				......
+			</div>
+		</div>
+
+		<div class="log-container">
+			
+		</div>
+	</div>
+</body>
+
+</html>

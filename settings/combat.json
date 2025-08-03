@@ -1,0 +1,11 @@
+{
+	"fixDelayedBuffsMe": true,
+	"fixDelayedBuffsNpcs": true,
+	"fixFreezeAtPerfectBlock": true,
+	"preventEmptyBackstabsCasts": true,
+	"tryResyncNpcs": true,
+	"tryResyncNpcsDeath": true,
+	"tryResyncPlayers": true,
+	"tryResyncPlayersDeath": true,
+	"version": "14.29.3"
+}
