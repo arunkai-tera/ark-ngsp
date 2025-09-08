@@ -5,12 +5,12 @@
         "data/emu/arunkai/baseData.res": "ac79d958c193220b3d9ac2a72fb9d991079a56f4f54b06a1510c6f4d0086bb9b",
         "data/emu/arunkai/battleNotifications.res": "4ef9ce55836519dd8a7c9abe32b09a7686a2de763cdccb1e6f12fe1d331cc10f",
         "data/emu/arunkai/denylistData.res": "5cce26c38001d84c00caf6fa10d24a7f514a5897196648ec0a97e90ef608b6af",
-        "data/emu/arunkai/effects-override.res": "71d46d4b2f85d34fac94c0e548131d40c0a230ab2c3bd789a08044202eb045e0",
+        "data/emu/arunkai/effects-override.res": "242f434603cc1c42f083728a07d1200a87fedc92e22e8604b8b6a0eebfa8adcf",
         "data/emu/arunkai/effects.res": "0fbfcda3d3ba914d258c0bf80f9ce3557b2b12cfdb3fd000289c5134a9fd0773",
         "data/emu/arunkai/items-override.res": "58688001a2bf8962cb7cd1516a995055fac513257548341f3224f1f3e19e91aa",
         "data/emu/arunkai/items.res": "69121b44620e3260d7f3b32fd9be8872f12f02b61d04c7d4656c34e54cb24b07",
         "data/emu/arunkai/movements.res": "de524c41e0edac26a6a1d5ffeb5f8a54bb02774bc701153496b1f215e6bf7f59",
-        "data/emu/arunkai/skills-override.res": "5c313d1acda0d3f51f8d50adca1345f1280ff701a6a35509c33967028d418cdb",
+        "data/emu/arunkai/skills-override.res": "4c98b128ba21757e0bb422cd5965ca1d946d2bce4e4065826bbfc2210c8329d3",
         "data/emu/arunkai/skills.res": "05158e005f459fa38abdf5fecdc4896911dac0c0e4cf03d8f8320b6ef4d91422",
         "data/emu/default/baseData.res": "ac79d958c193220b3d9ac2a72fb9d991079a56f4f54b06a1510c6f4d0086bb9b",
         "data/emu/default/battleNotifications.res": "4ef9ce55836519dd8a7c9abe32b09a7686a2de763cdccb1e6f12fe1d331cc10f",
@@ -186,7 +186,7 @@
         },
         "settings/settings.json": {
             "overwrite": false,
-            "hash": "c6603417395d121777aa6710aec0f0a7a60e018ab6b6f9bc96c55c445c52ab0b"
+            "hash": "52ba7f1db3ded8a4ffe5cab635a4564dd3c6bf50eb4d56727f78af5fc49a435d"
         }
     }
 }
